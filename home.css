@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(127, 98, 98);
+}
+*{box-sizing: border-box;}
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+img{vertical-align: middle;}
+
+.slideshow-container{
+    max-width: 990px;
+    position: relative;
+    margin: auto;
+}
+
+.text{
+    font-family:"Fjalla One", sans-serif;
+    color:rgb(148, 70, 31);
+    font-size: 100px;
+    font-style: unset;
+    position: absolute;
+    bottom: 400px;
+    width: 100%;
+    text-align: center;
+    word-spacing: 15px;
+}
+
+.numbertext{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 15s ease;
+    position: absolute;
+    bottom: 30px;
+}
+
+.active{
+    background-color: #717171;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+
+@media only screen and (max-width:300px){
+    .text{font-size: 11px;}
+}
+
+div a img{
+    border-radius: 50%;
+}
+

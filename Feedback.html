@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Eats - Feedback</title>
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./About us.css">
+    <link rel="stylesheet" href="./feedback.css">
+    <script src="./feedback.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="Home.html"><img src="Untitled design.png" width=80px height="80px"></a>
+        </div>
+        <ul>
+            <li>
+                <a href="./Home.html">Home</a>
+            </li>
+            <li>
+                <a href="./Food Hub.html">Food Hubs</a>
+            </li>
+            <li>
+                <a href="./About us.html">About Us</a>
+            </li>
+            <li>
+                <a href="./Feedback.html">Feedback</a>
+            </li>
+        </ul>
+        <div>
+            <a href="Home.html"><img src="Untitled design (2).png" width="80 px" height="80px"></a>
+        </div>
+    </header>
+    <h1>REVIEWS..!!</h1>
+
+    <form id="myform" action="home.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" onkeyup="validatename()" required>
+        <div class="message" id="nameMessage"></div>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" onkeyup="validateemail()" required>
+        <div class="message" id="emailMessage"></div>
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" onkeyup="validatePassword()" required>
+        <div class="message" id="passwordMessage"></div>
+
+        <label for="review">Review</label>
+        <input type="text" id="review" onkeyup="validatereview()" required>
+        <div class="message" id="reviewMessage"></div>
+
+        <input type="submit" value="Submit Form">
+    </form>
+    <!-- <center>
+        <div id="maindiv">
+            <form onsubmit="return(sub())" name="myform">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Full Nmae">
+                <div class="error" id="nameerror"></div>
+
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email">
+                <span class="error" id="emailerror"></span>
+
+                <br><br>
+
+                <label for="food hub">FOOD HUB</label>
+                <select name="food hub" id="food hub">
+                    <option value="Select">Select</option>
+                    <option value="Dominos">Dominos</option>
+                    <option value="Oven Xpress">Oven Xpress</option>
+                    <option value="BUZZZ">BUZZZ</option>
+                    <option value="Kannu Ki Chai">Kannu Ki Chai</option>
+                    <option value="NAND JUICE">NAND JUICE</option>
+                    <option value="Protein House">Protein House</option>
+                    <option value="Chai Sutta Bar">Chai Sutta Bar</option>
+                    <option value="Nescafe">Nescafe</option>
+                    <option value="La Pino'z Pizza">La Pino'z Pizza</option>
+                </select>
+                <span class="error" id="selecterror"></span>
+                <br><br>
+
+                <label for="Reviews">Reviews</label>
+                <input type="text" id="Reviews" placeholder="Reviews">
+                <span class="error" id="Reviewerror"></span>
+                <br><br>
+
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="RESET">
+            </form>
+        </div>
+    </center>
+    <script>
+        function sub() {
+            var isvalid = true;
+            if (document.getElementById("name").value == "") {
+                document.getElementById("nameerror").innerText = "can't be empty"
+                isvalid = false;
+            }
+            else {
+                document.getElementById("nameerror").innerText = "";
+
+            }
+            if (document.getElementById("email").value == "") {
+                document.getElementById("emailerror").innerText = "can't be empty"
+                isvalid = false;
+            }
+            else {
+                document.getElementById("emailerror").innerText = "";
+
+            }
+
+            if (document.getElementById("food hub").value == "select") {
+                document.getElementById("selecterror").innerText = "can't be empty"
+                isvalid = false;
+            }
+            else {
+                document.getElementById("selecterror").innerText = "";
+
+            }
+
+            if (document.getElementById("password").value == "") {
+                document.getElementById("passworderror").innerText = "can't be empty"
+                isvalid = false;
+            }
+            else {
+                document.getElementById("passworderror").innerText = "";
+
+            }
+
+            if (document.getElementById("review").value == "") {
+                document.getElementById("reviewerror").innerText = "can't be empty"
+                isvalid = false;
+            }
+            else {
+                document.getElementById("reviewderror").innerText = "";
+
+            }
+
+            return isvalid;
+        }
+    </script> -->
+</body>
+
+</html>

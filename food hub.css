@@ -1,0 +1,38 @@
+.cont1{
+    border: 3px dashed black;
+    margin: 30px;
+    border-radius: 50px;
+    font-family: "Playwrite GB S", cursive;
+    text-align: center;
+    /* height: 600px; */
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div h1{
+    text-align: center;
+}
+.element{
+    border-radius: 10px;
+    background-color:darkred;
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+}
+
+.element img{
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+}
+.cont2{
+    font-family: "Playwrite GB S", cursive;
+    text-align: center;
+}
+
+.but a{
+color: aqua;
+text-decoration: none;
+}

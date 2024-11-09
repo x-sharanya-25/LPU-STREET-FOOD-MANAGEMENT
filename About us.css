@@ -1,0 +1,28 @@
+.body1{
+    margin: 20px;
+    padding: 30px;
+    font-size: 30px;
+    border: 3px dashed black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Playwrite GB S",cursive;
+    color:cornsilk;
+}
+.gall{
+    margin: 20px;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con img{
+    margin: 20px;
+    width: 400px;
+    height: 350px;
+}
+h1{
+    font-family: "Playwrite GB S",cursive;
+    color: black;
+}

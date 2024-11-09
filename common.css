@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    padding: 40px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:white;
+
+}
+
+header ul li a:hover{
+    color: rgb(246, 122, 6);
+
+}
